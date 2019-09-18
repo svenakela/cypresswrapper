@@ -3,5 +3,6 @@
   "integrationFolder": "cypress/integration",
   "testFiles": "*.spec.js",
   "video": false,
-  "defaultCommandTimeout": 30000
+  "defaultCommandTimeout": 30000,
+  "blacklistHosts": [ "google-analytics.com", "googletagmanager.com"]
 }
